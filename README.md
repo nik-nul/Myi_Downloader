@@ -11,7 +11,7 @@
 ## 用法
 1. 使用[ibuprofen](https://github.com/Richard-Zheng/ibuprofen)获取的`txt`格式的文件信息，复制到与`main.py`统一路径下  
    **注意：请提前将`\u3000`替换为空白或其他合法字符，否则作为非法字符将打断下载进程**  
-           **若备课或文件名中有`/`等其他`Windwos`非法字符请自行删除或更换，否则也会打断下载进程**
+           **若备课或文件名中有`/`等其他`Windows`系统的非法字符请自行删除或更换，否则也会打断下载进程**
 3. 在此路径打开终端，并执行
    ```
    pip3 install -r requirements.txt
