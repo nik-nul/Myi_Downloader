@@ -12,9 +12,10 @@
 1. 使用[ibuprofen](https://github.com/Richard-Zheng/ibuprofen)获取的`txt`格式的文件信息，复制到与`main.py`统一路径下
 2. 在此路径打开终端，并执行
    ```
-   pip install requirements.txt
+   pip3 install requirements.txt
    python main.py
    ```
+   **注意：`pip`指令下载的`wget`库无法正常使用，必须使用`pip3`指令下载**
 3. 数据将自动保存在本路径下的`data`文件夹内，按照科目排列，科目下文件夹名为`备课发布时间`+`备课名`，内部为该备课全部文件
 ## 特性
 * 按照与少年派相同的逻辑储存自主学习内容，便于检索
