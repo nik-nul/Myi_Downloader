@@ -12,7 +12,7 @@
 1. 使用[ibuprofen](https://github.com/Richard-Zheng/ibuprofen)获取的`txt`格式的文件信息，复制到与`main.py`统一路径下
 2. 在此路径打开终端，并执行
    ```
-   pip3 install requirements.txt
+   pip3 install -r requirements.txt
    python main.py
    ```
    **注意：`pip`指令下载的`wget`库无法正常使用，必须使用`pip3`指令下载**
