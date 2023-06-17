@@ -1,5 +1,5 @@
 # Myi_Downloader
-基于python的轻量级少年派自主学习内容下载器
+基于python的轻量级少年派自主学习内容批量下载器
 ## 原理
 使用[ibuprofen](https://github.com/Richard-Zheng/ibuprofen)获取的资源`json`信息进行解析，按照其内容下载文件
 ## 需求的库
