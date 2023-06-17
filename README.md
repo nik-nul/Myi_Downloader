@@ -1,7 +1,7 @@
 # Myi_Downloader
 基于python的轻量级少年派自主学习内容下载器
 ## 原理
-使用[ibuprofen](https://github.com/Richard-Zheng/ibuprofen)获取的资源json信息进行解析，按照其内容下载文件
+使用[ibuprofen](https://github.com/Richard-Zheng/ibuprofen)获取的资源`json`信息进行解析，按照其内容下载文件
 ## 需求的库
 * pandas：解析json数据
 * json：解析json数据
@@ -20,6 +20,9 @@
 * 按照与少年派相同的逻辑储存自主学习内容，便于检索
 * 支持自动跳过已下载文件，初次建立数据库后可快速更新维护
 * 实时显示下载进度
+## 样例
+在`demo`文件夹内有一个`txt`文档，该文档可作为调试本项目的样例数据
+经过测试，该样例可以在本人电脑上正常运行
 ## 一些废话
 这是本人第一次制作类似项目，其实这就是一个json解释器，没有什么技术含量  
 主要是我所在年级是最后一届使用睿易服务的  
