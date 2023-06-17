@@ -9,7 +9,7 @@
 * os：进行文件操作
 * re：使用正则表达式解析json数据
 ## 用法
-1. 使用[ibuprofen](https://github.com/Richard-Zheng/ibuprofen)获取的`txt`格式的文件信息，复制到与`main.py`统一路径下
+1. 使用[ibuprofen](https://github.com/Richard-Zheng/ibuprofen)获取的`txt`格式的文件信息，复制到与`main.py`统一路径下  
    **注意：请提前将`\u3000`替换为空白或其他合法字符，否则作为非法字符将打断下载进程**
 2. 在此路径打开终端，并执行
    ```
