@@ -22,11 +22,17 @@ def down(ln):
     for i in range(l):
      #   os.chdir('./data/'+df['numberSubject'][i])
         os.chdir('./data/')
-        nameSubject = df['subject'][i]
+        nameSubject = str(df['subject'][i])
         if not os.path.exists(nameSubject):
             os.mkdir(nameSubject)
         os.chdir(nameSubject)
-        grName = df['date'][i][0:10] + ' ' + df['title'][i]
+        dat = df['date'][i]
+        if not isinstance(dat,str):
+            dat = 'Unknowndat'
+        titl = df['title'][i]
+        if not isinstance(titl,str):
+            titl = 'Unknowntitl'
+        grName = str(dat[0:10] + ' ' + titl)
         if not os.path.exists(grName):
            os.mkdir(grName)
         os.chdir(grName)
@@ -35,7 +41,7 @@ def down(ln):
         tmpGetExt = ext.findall(str(dfr[i]))
         s = len(tmpGetTitle)
         for j in range(s):
-            tmpName = tmpGetTitle[j][2:-1] + '.' + tmpGetExt[j][2:-1]
+            tmpName = str(tmpGetTitle[j][2:-1] + '.' + tmpGetExt[j][2:-1])
             if not os.path.exists(tmpName):
                 wget.download(tmpGetUrl[j],tmpName)
                 print()
